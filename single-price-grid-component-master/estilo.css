@@ -1,0 +1,140 @@
+/* border: 1px solid red */
+/* font-family: 'Karla', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(204, 43%, 93%);
+}
+
+main {
+  height: 500px;
+  width: 750px;
+  border-radius: 12px;
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+/* --------conteudo--superior------- */
+.conteudo-superior {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.conteudo-superior h2.titulo-componente {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 28px;
+}
+
+.conteudo-superior span.tempo-garantia {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: hsl(71, 73%, 54%);
+}
+
+.conteudo-superior p.texto-superior {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(218, 22%, 67%);
+  margin-top: 20px;
+}
+
+/* -------conteudo--inferior--------- */
+.conteudo-inferior {
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+/* -------primeiro--quadrado--------- */
+.conteudo-inferior .quadrado-um {
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 32px;
+  border-bottom-left-radius: 12px;
+}
+
+.conteudo-inferior .quadrado-um h2.titulo-quadrado1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.conteudo-inferior .quadrado-um span.dollar-grifado {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.conteudo-inferior .quadrado-um span.condicao-preco {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: hsl(179, 61%, 52%);
+  margin-bottom: 20px;
+}
+
+.conteudo-inferior .quadrado-um p.texto-quadrado1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.582);
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.conteudo-inferior .quadrado-um button {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  background-color: hsl(71, 73%, 54%);
+  border: 0;
+  border-radius: 6px;
+  margin-top: 8px;
+  box-shadow: 6px 6px 48px hsl(179, 61%, 34%);
+}
+
+/* -------segundo--quadrado---------- */
+
+.conteudo-inferior .quadrado-dois {
+  background-color: hsla(179, 62%, 43%, 0.651);
+  padding-left: 45px;
+  padding-right: 100px;
+  padding-top: 32px;
+  border-bottom-right-radius: 12px;
+}
+
+.conteudo-inferior .quadrado-dois h2.titulo-quadrado2 {
+  font-family: "Karla", sans-serif;
+  color: #fff;
+  padding-bottom: 18px;
+}
+
+.conteudo-inferior .quadrado-dois p.texto-quadrado2 {
+  font-family: "Karla", sans-serif;
+  color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+/* final do conteudo inferior */
