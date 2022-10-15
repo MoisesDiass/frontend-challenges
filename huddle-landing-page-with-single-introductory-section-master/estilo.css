@@ -1,0 +1,76 @@
+/* border: 1px solid red; */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+main {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50% 50%;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-bottom: 10rem;
+}
+
+main img {
+  width: 100%;
+}
+
+main .conteudo-texto {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 75%;
+}
+
+main .conteudo-texto h2.titulo-lp {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+main .conteudo-texto p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+main button.botao-registrar {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 100px;
+  border: 0;
+  box-shadow: 6px 6px 48px hsla(0, 0%, 0%, 0.356);
+  font-family: "Open Sans", sans-serif;
+  color: hsl(257, 40%, 49%);
+  font-size: 16px;
+}
+
+main button.botao-registrar:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
